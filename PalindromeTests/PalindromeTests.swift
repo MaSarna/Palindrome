@@ -9,28 +9,64 @@ import XCTest
 @testable import Palindrome
 
 class PalindromeTests: XCTestCase {
+    
+    var sut: PalindromeCheck!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        sut = PalindromeCheck()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testPalindromeCheckIsCaseInsensitive() {
+        let phrase = "RaCEcAR"
+        
+        let check = sut.isPalindrom(phrase)
+        
+        XCTAssertTrue(check)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testPalindromeCheckIgnoresPunctuations() {
+        let phrase = "Doc, note: I dissent. A fast never prevents a fatness. I diet on cod"
+        
+        let check = sut.isPalindrom(phrase)
+        
+        XCTAssertTrue(check)
     }
-
+    
+    func testPalindromeCheckHandleEmptyString() {
+        let phrase = ""
+        
+        let check = sut.isPalindrom(phrase)
+        
+        XCTAssertFalse(check)
+    }
+    
+    func testPalindromeCheckSingleCharacter() {
+        let phrase = "a"
+        
+        let check = sut.isPalindrom(phrase)
+        
+        XCTAssertTrue(check)
+    }
+    
+    func testPalindromeCheckTwoCharsPalindrome() {
+        let phrase = "aa"
+        
+        let check = sut.isPalindrom(phrase)
+        
+        XCTAssertTrue(check)
+    }
+    
+    func testPalindromeCheckTwoDifferentChars() {
+        let phrase = "ab"
+        
+        let check = sut.isPalindrom(phrase)
+        
+        XCTAssertFalse(check)
+    }
 }

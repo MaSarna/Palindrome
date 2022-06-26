@@ -10,7 +10,11 @@ import Foundation
 class PalindromeCheck {
     
     func isPalindrom(_ phrase: String) -> Bool {
-        let phraseCheck = phrase.components(separatedBy: CharacterSet.alphanumerics.inverted).joined().lowercased()
+        let phraseCheck = phrase.lowercased().components(separatedBy: CharacterSet.alphanumerics.inverted).joined()
+        
+        if phrase == "" {
+            return false
+        }
         
         return phraseCheck == String(phraseCheck.reversed())
     }
