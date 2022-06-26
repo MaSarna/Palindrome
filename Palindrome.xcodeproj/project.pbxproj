@@ -14,20 +14,11 @@
 		6A5D7C3728690C2800F623FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5D7C3628690C2800F623FE /* Assets.xcassets */; };
 		6A5D7C3A28690C2800F623FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5D7C3828690C2800F623FE /* LaunchScreen.storyboard */; };
 		6A5D7C4528690C2800F623FE /* PalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D7C4428690C2800F623FE /* PalindromeTests.swift */; };
-		6A5D7C4F28690C2800F623FE /* PalindromeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D7C4E28690C2800F623FE /* PalindromeUITests.swift */; };
-		6A5D7C5128690C2800F623FE /* PalindromeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D7C5028690C2800F623FE /* PalindromeUITestsLaunchTests.swift */; };
 		6A5D7C5E28690D1B00F623FE /* PalindromeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D7C5D28690D1B00F623FE /* PalindromeCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		6A5D7C4128690C2800F623FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6A5D7C2228690C2700F623FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A5D7C2928690C2700F623FE;
-			remoteInfo = Palindrome;
-		};
-		6A5D7C4B28690C2800F623FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6A5D7C2228690C2700F623FE /* Project object */;
 			proxyType = 1;
@@ -47,9 +38,6 @@
 		6A5D7C3B28690C2800F623FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A5D7C4028690C2800F623FE /* PalindromeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalindromeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5D7C4428690C2800F623FE /* PalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeTests.swift; sourceTree = "<group>"; };
-		6A5D7C4A28690C2800F623FE /* PalindromeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalindromeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A5D7C4E28690C2800F623FE /* PalindromeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUITests.swift; sourceTree = "<group>"; };
-		6A5D7C5028690C2800F623FE /* PalindromeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6A5D7C5D28690D1B00F623FE /* PalindromeCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,13 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5D7C4728690C2800F623FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +64,6 @@
 			children = (
 				6A5D7C2C28690C2700F623FE /* Palindrome */,
 				6A5D7C4328690C2800F623FE /* PalindromeTests */,
-				6A5D7C4D28690C2800F623FE /* PalindromeUITests */,
 				6A5D7C2B28690C2700F623FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +73,6 @@
 			children = (
 				6A5D7C2A28690C2700F623FE /* Palindrome.app */,
 				6A5D7C4028690C2800F623FE /* PalindromeTests.xctest */,
-				6A5D7C4A28690C2800F623FE /* PalindromeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,15 +98,6 @@
 				6A5D7C4428690C2800F623FE /* PalindromeTests.swift */,
 			);
 			path = PalindromeTests;
-			sourceTree = "<group>";
-		};
-		6A5D7C4D28690C2800F623FE /* PalindromeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6A5D7C4E28690C2800F623FE /* PalindromeUITests.swift */,
-				6A5D7C5028690C2800F623FE /* PalindromeUITestsLaunchTests.swift */,
-			);
-			path = PalindromeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,24 +138,6 @@
 			productReference = 6A5D7C4028690C2800F623FE /* PalindromeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6A5D7C4928690C2800F623FE /* PalindromeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A5D7C5A28690C2800F623FE /* Build configuration list for PBXNativeTarget "PalindromeUITests" */;
-			buildPhases = (
-				6A5D7C4628690C2800F623FE /* Sources */,
-				6A5D7C4728690C2800F623FE /* Frameworks */,
-				6A5D7C4828690C2800F623FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6A5D7C4C28690C2800F623FE /* PBXTargetDependency */,
-			);
-			name = PalindromeUITests;
-			productName = PalindromeUITests;
-			productReference = 6A5D7C4A28690C2800F623FE /* PalindromeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +152,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					6A5D7C3F28690C2800F623FE = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 6A5D7C2928690C2700F623FE;
-					};
-					6A5D7C4928690C2800F623FE = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 6A5D7C2928690C2700F623FE;
 					};
@@ -224,7 +172,6 @@
 			targets = (
 				6A5D7C2928690C2700F623FE /* Palindrome */,
 				6A5D7C3F28690C2800F623FE /* PalindromeTests */,
-				6A5D7C4928690C2800F623FE /* PalindromeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,13 +188,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6A5D7C3E28690C2800F623FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A5D7C4828690C2800F623FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,15 +216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5D7C4628690C2800F623FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A5D7C4F28690C2800F623FE /* PalindromeUITests.swift in Sources */,
-				6A5D7C5128690C2800F623FE /* PalindromeUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,11 +223,6 @@
 			isa = PBXTargetDependency;
 			target = 6A5D7C2928690C2700F623FE /* Palindrome */;
 			targetProxy = 6A5D7C4128690C2800F623FE /* PBXContainerItemProxy */;
-		};
-		6A5D7C4C28690C2800F623FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6A5D7C2928690C2700F623FE /* Palindrome */;
-			targetProxy = 6A5D7C4B28690C2800F623FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -530,42 +456,6 @@
 			};
 			name = Release;
 		};
-		6A5D7C5B28690C2800F623FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VAZ4DN586B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.curlybraces.PalindromeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Palindrome;
-			};
-			name = Debug;
-		};
-		6A5D7C5C28690C2800F623FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VAZ4DN586B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.curlybraces.PalindromeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Palindrome;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -592,15 +482,6 @@
 			buildConfigurations = (
 				6A5D7C5828690C2800F623FE /* Debug */,
 				6A5D7C5928690C2800F623FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6A5D7C5A28690C2800F623FE /* Build configuration list for PBXNativeTarget "PalindromeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6A5D7C5B28690C2800F623FE /* Debug */,
-				6A5D7C5C28690C2800F623FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
