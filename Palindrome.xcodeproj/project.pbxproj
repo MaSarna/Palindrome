@@ -16,6 +16,7 @@
 		6A5D7C4528690C2800F623FE /* PalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D7C4428690C2800F623FE /* PalindromeTests.swift */; };
 		6A5D7C4F28690C2800F623FE /* PalindromeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D7C4E28690C2800F623FE /* PalindromeUITests.swift */; };
 		6A5D7C5128690C2800F623FE /* PalindromeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D7C5028690C2800F623FE /* PalindromeUITestsLaunchTests.swift */; };
+		6A5D7C5E28690D1B00F623FE /* PalindromeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D7C5D28690D1B00F623FE /* PalindromeCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6A5D7C4A28690C2800F623FE /* PalindromeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalindromeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5D7C4E28690C2800F623FE /* PalindromeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUITests.swift; sourceTree = "<group>"; };
 		6A5D7C5028690C2800F623FE /* PalindromeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6A5D7C5D28690D1B00F623FE /* PalindromeCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				6A5D7C3628690C2800F623FE /* Assets.xcassets */,
 				6A5D7C3828690C2800F623FE /* LaunchScreen.storyboard */,
 				6A5D7C3B28690C2800F623FE /* Info.plist */,
+				6A5D7C5D28690D1B00F623FE /* PalindromeCheck.swift */,
 			);
 			path = Palindrome;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A5D7C3228690C2700F623FE /* ViewController.swift in Sources */,
+				6A5D7C5E28690D1B00F623FE /* PalindromeCheck.swift in Sources */,
 				6A5D7C2E28690C2700F623FE /* AppDelegate.swift in Sources */,
 				6A5D7C3028690C2700F623FE /* SceneDelegate.swift in Sources */,
 			);
