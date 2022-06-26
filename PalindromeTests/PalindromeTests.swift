@@ -2,7 +2,7 @@
 //  PalindromeTests.swift
 //  PalindromeTests
 //
-//  Created by Jelon on 26/06/2022.
+//  Created by MaSarna on 26/06/2022.
 //
 
 import XCTest
