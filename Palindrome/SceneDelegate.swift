@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Palindrome
 //
-//  Created by Jelon on 26/06/2022.
+//  Created by MaSarna on 26/06/2022.
 //
 
 import UIKit
